@@ -18,5 +18,9 @@
   "homepage": "https://github.com/ByteCodeMonkey/web3-explore#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-solidity": "^1.4.2"
   }
 }
