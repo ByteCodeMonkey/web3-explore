@@ -15,7 +15,12 @@ contract SocialToken is ERC20, Ownable {
     }
 }
 
-// 社交平台合约
+/**
+ * @title DecentralizedSocial
+ * @dev 去中心化社交平台合约
+ * @notice 这个合约允许用户创建帖子、点赞帖子，并获得代币奖励。部署注意事项：先部署代币合约，然后部署社交合约，并调用代币合约的所有权转移给社交合约。
+ * @author wangxiaoguang
+ */
 contract DecentralizedSocial {
     struct Post {
         uint256 id;
